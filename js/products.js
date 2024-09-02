@@ -26,7 +26,11 @@ class Product {
 const products = [
     new Product("Tarpaulins", "images/img1.png", "This is a great product.", "$25.00", "#"),
     new Product("Custom Shirts", "images/img3.jpg", "This is another great product.", "$30.00", "#"),
-    new Product("Brand Signage", "images/img5.jpg", "This product is awesome.", "$35.00", "#")
+    new Product("Brand Signage", "images/img5.jpg", "This product is awesome.", "$35.00", "#"),
+    new Product("Brand Signage", "images/img4.jpg", "This product is awesome.", "$35.00", "#"),
+    new Product("Custom Mug", "images/img6.jpg", "This product is awesome.", "$35.00", "#"),
+    new Product("Graphic Design", "images/img7.jpg", "This product is awesome.", "$35.00", "#")
+
 ];
 
 // Function to render products to the DOM
